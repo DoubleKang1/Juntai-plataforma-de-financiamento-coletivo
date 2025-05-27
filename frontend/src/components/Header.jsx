@@ -4,8 +4,8 @@ function Header(){
     return(
         <header style={{padding: 'irem', backgroundColor: '#eee'}}>
             <nav>
-                <link to="/" style={{marginRight: 'irem'}}>Início</link>
-                <link to="/campanhas" style={{marginRight: 'irem'}}>Campanhas</link>
+                <Link to="/" style={{marginRight: 'irem'}}>Início</Link>
+                <Link to="/campanhas" style={{marginRight: 'irem'}}>Campanhas</Link>
             </nav>
         </header>
     );
