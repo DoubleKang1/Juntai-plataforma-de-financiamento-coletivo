@@ -1,4 +1,3 @@
-DROP DATABASE IF EXISTS juntai;
 CREATE DATABASE juntai;
 USE juntai;
 
