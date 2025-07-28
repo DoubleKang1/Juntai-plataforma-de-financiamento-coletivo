@@ -1,0 +1,47 @@
+[33mcommit 5a75fe8d8e2530aad35a3f299702fc81e43d9b78[m
+Author: Rafael Alves <85967732+DoubleKang1@users.noreply.github.com>
+Date:   Thu May 22 12:59:42 2025 -0300
+
+    Initial commit
+
+[33mcommit 154b70bf83c77cd3596cb375e94644806d67e4f2[m
+Author: Rafael Alves <85967732+DoubleKang1@users.noreply.github.com>
+Date:   Thu May 22 13:01:12 2025 -0300
+
+    Script e DER do Banco de dados
+
+[33mcommit f87943cc28da903efd5d017f53593df409b6f5e7[m
+Author: Rafael Alves <85967732+DoubleKang1@users.noreply.github.com>
+Date:   Thu May 22 13:04:32 2025 -0300
+
+    Update juntai.sql
+
+[33mcommit 3e5e6fbf26139946494c016863f868e3275d384b[m[33m ([m[1;32mfeat/home-criacao[m[33m)[m
+Author: Rafael <rafael.alves@eitv.com.br>
+Date:   Mon May 26 11:27:58 2025 -0300
+
+    Adicionando pasta do FrontEnd
+
+[33mcommit 5cef56961b36abbe3c23424bba995dba86c6a062[m[33m ([m[1;32mfeat/route-criacao[m[33m)[m
+Author: Rafael <rafael.alves@eitv.com.br>
+Date:   Mon May 26 17:04:35 2025 -0300
+
+    feat: criar  o route
+
+[33mcommit 3ef8d8adeb16691f7d894b4fa81f3a58bbaa2788[m[33m ([m[1;32mfeat/header-criacao[m[33m)[m
+Author: Rafael <rafael.alves@eitv.com.br>
+Date:   Tue May 27 10:11:40 2025 -0300
+
+    feat: criar Header
+
+[33mcommit 4e55762b349118bb08332fc6fc4a4681eb7ffc8e[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m, [m[1;32mfeat/route-atualizacao[m[33m)[m
+Author: Rafael <rafael.alves@eitv.com.br>
+Date:   Tue May 27 10:30:20 2025 -0300
+
+    feat: atualizar route e header
+
+[33mcommit 889e0ba61e06f3c6f9ee5dc60c581c4999684451[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mtemp[m[33m, [m[1;31morigin/feat/header-estilizacao[m[33m, [m[1;32mheader-atualizacao[m[33m, [m[1;32mfeat/header-estilizacao[m[33m)[m
+Author: Rafael <rafael.alves@eitv.com.br>
+Date:   Tue May 27 12:59:43 2025 -0300
+
+    feat: estilizar o header
