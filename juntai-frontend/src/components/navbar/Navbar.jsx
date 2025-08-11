@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import { Link } from "react-router-dom" 
 import './Navbar.css'
 import logo from '../../assets/Logo Horizontal 4.png'
 
@@ -13,9 +14,9 @@ const Navbar = () => {
     return(
         <header>
             <nav>
-                <a href="/">
+                <Link to="/">
                 <img src={logo} className="logo"/>
-                </a>
+                </Link>
 
                 <div className={`mobile-menu ${menuAtivo ? 'active' : ''}`} onClick={toggleMenu}>
                     <div className="line1"></div>
@@ -23,9 +24,9 @@ const Navbar = () => {
                     <div className="line3"></div>
                 </div>
                 <ul className={`nav-list ${menuAtivo ? 'active' : ''}`} onClick={toggleMenu}>
-                    <li><a href="#">Campanhas</a></li>
-                    <li><a href="#">Sobre nós</a></li>
-                    <li><a href="#">Entrar</a></li>
+                    <li><Link to="#">Campanhas</Link></li>
+                    <li><Link to="#">Sobre nós</Link></li>
+                    <li><Link to="#">Entrar</Link></li>
                 </ul>
             </nav>
             
