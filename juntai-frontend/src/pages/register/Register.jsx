@@ -40,11 +40,6 @@ const Register = () => {
   </div>
 
   <div className="form-group">
-    <label>Data de Nascimento</label>
-    <input type="date" />
-  </div>
-
-  <div className="form-group">
     <div id="recaptcha"></div>
   </div>
 
