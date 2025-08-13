@@ -1,0 +1,142 @@
+.campaign-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding: 40px 20px;
+}
+
+.campaign-form-container {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 800px;
+}
+
+.campaign-form-container h1{
+    color: #31b454;
+}
+
+.campaign-form-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.campaign-form-container input:focus,
+.campaign-form-container textarea:focus,
+.campaign-form-container select:focus{
+    border: 2px solid #31b454;
+    outline: none;
+}
+
+form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+input, textarea, select {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-top: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+/* Campos maiores */
+input[name="title"],
+textarea[name="description"],
+input[name="goal"],
+input[name="category"],
+input[name="images"] {
+  width: 100%;
+  max-width: 750px;
+}
+
+textarea[name="description"] {
+  min-height: 120px;
+}
+
+/* Botões maiores */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+button {
+  padding: 16px 35px; /* maior que antes */
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  font-size: 18px; /* maior */
+  transition: all 0.2s ease-in-out;
+}
+
+.cancel-btn {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.cancel-btn:hover {
+  background: #d5d5d5;
+}
+
+.create-btn {
+  background: #31b454;
+  color: white;
+}
+
+.create-btn:hover {
+  background: #2eaa4f;
+}
+
+/* Modal maior */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal {
+  background: #fff;
+  padding: 50px 60px;
+  border-radius: 12px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.3);
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.modal p {
+  margin-bottom: 25px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.modal-buttons button {
+  padding: 16px 35px;
+  font-size: 18px;
+  border-radius: 10px;
+}
