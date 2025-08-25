@@ -51,7 +51,10 @@ CREATE TABLE campaigns(
     age_range TINYINT UNSIGNED NOT NULL,
     status VARCHAR(20) NOT NULL,
     url VARCHAR(1024) NOT NULL,
-    image VARCHAR(500),
+    image_url VARCHAR(500),
+    media_url_1 VARCHAR(500),
+    media_url_2 VARCHAR(500),
+    media_url_3 VARCHAR(500),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
     user_id INT NOT NULL,
@@ -80,6 +83,7 @@ CREATE TABLE rewards(
 	id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(100) NOT NULL,
     description VARCHAR(500) NOT NULL,
+    price DECIMAL(10,2) NOT NULL,
     delivery_date DATE NOT NULL,
     image VARCHAR(500),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -92,7 +96,7 @@ CREATE TABLE rewards(
 
 CREATE TABLE donations(
 	id INT PRIMARY KEY AUTO_INCREMENT,
-    price DECIMAL(10,2) NOT NULL,
+    amount DECIMAL(10,2) NOT NULL,
 	status VARCHAR(20) NOT NULL,
     recurrency BOOLEAN NOT NULL,
     duration VARCHAR(20) NOT NULL,
