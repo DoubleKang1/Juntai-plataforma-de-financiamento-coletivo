@@ -15,7 +15,10 @@ CREATE TABLE users(
     state VARCHAR(2) NOT NULL,
     country VARCHAR(50) NOT NULL,
     phone VARCHAR(15),
-    image VARCHAR(500),
+    image_url VARCHAR(500),
+    media_url_1 VARCHAR(500),
+    media_url_2 VARCHAR(500),
+    media_url_3 VARCHAR(500),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     updated_at DATETIME DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
