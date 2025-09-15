@@ -84,6 +84,7 @@ CREATE TABLE rewards(
     name VARCHAR(100) NOT NULL,
     description VARCHAR(500) NOT NULL,
     price DECIMAL(10,2) NOT NULL,
+	qunatity_itens INT,
     delivery_date DATE NOT NULL,
     image VARCHAR(500),
     media_url_1 VARCHAR(500),
